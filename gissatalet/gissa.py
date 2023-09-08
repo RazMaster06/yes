@@ -16,6 +16,7 @@ hitta = False
 
 #loopar
 
+
 while i < 3:
 
     gissatal = input("mata in tal: ")
@@ -26,6 +27,12 @@ while i < 3:
         break
 
     i += 1
+
+    if i == 1:
+        print("\n Två försök kvar")
+
+    if i == 2:
+        print("\n Sista försöket!")
 
 if hitta:
     print("\n Bra jobbat, här får du en anka")
